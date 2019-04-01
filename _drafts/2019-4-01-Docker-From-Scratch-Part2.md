@@ -3,7 +3,11 @@ layout: post
 title: "Docker From Scratch Part 2: Making the Sample App"
 ---
 
-Next step in my Docker learning journey was to actually _build_ the application I was going to Docker-ise!
+_Building a basic ReactJS + NodeJS API Server + PostgreSQL Database application ready for Docker! And some lessons I learnt along the way._
+
+## Introduction
+
+Next step in my Docker learning journey was to actually <strong>build</strong> the application I was going to Docker-ise!
 
 Without an application, it was just me reading and regurgitating documentation and things I'd read. There's no better way to learn than by doing. 
 
