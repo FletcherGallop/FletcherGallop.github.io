@@ -20,4 +20,4 @@ I've worked at a small start-up called API Talent, which was then acquired by De
 
 I'm loving the new place, they're all very supportive. I get feedback regularly and very frequently. I get asked to join in with the different activities to see what I can contribute. It's all a very welcoming and valuable experience. 
 
-I did one crazy thing when they were asking me what it would take to get me to work with them. I asked for 1/2 a day every week to work on my professional development. 
+I did one crazy thing when they were asking me what it would take to get me to work with them. I asked for 1/2 a day every week to work on my professional development. And so it is with that time that I'll be working on internal projects, upskilling and working on things to blog about! 
