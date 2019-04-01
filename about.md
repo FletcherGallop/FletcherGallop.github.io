@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Cloud Engineer and Serverless Enthusiast!
 
-### More Information
+## Brief History
+I was born in the UK and then moved between the UK and New Zealand growing up. 
 
-A place to include any other types of information that you'd like to include about yourself.
+## Skills
+I've worked with AWS for a few years now, have 3 certs:
+- AWS Cloud Practitioner
+- AWS Certified Developer - Associate
+- AWS Certified Architect - Associate
+
+Worked with Mobile and Web development now, favourite frameworks include:
+- ReactJS (Web)
+- ReactNative (Mobile)
+- Ionic/Angular (Mobile)
+
+But I'm always looking to learn and pick up new tech that catches my eye! 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nonnyfg@gmail.com](mailto:nonnyfg@gmail.com)
