@@ -22,6 +22,9 @@ Worked with Mobile and Web development now, favourite frameworks include:
 
 But I'm always looking to learn and pick up new tech that catches my eye! 
 
+## Where've I been?
+https://www.youtube.com/watch?v=RVApgVRw3Pw
+
 ### Contact me
 
 [nonnyfg@gmail.com](mailto:nonnyfg@gmail.com)
