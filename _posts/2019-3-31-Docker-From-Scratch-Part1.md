@@ -55,7 +55,7 @@ I looked up *Scope creep*, and it's defined as "a dreaded thing that can happen 
 I'd say that's accurate.
 
 ### Estimates
-    Estimates aren't for the Faint of Heart
+> Estimates aren't for the Faint of Heart
 
 Or rather, estimates are about how much you *know yourself* and how much you *know the task*.
 

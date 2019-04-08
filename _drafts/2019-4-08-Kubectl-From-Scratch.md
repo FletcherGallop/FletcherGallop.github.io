@@ -43,7 +43,9 @@ _Or, better yet, just do it in Google Cloud Shell_ -->
 
 #### 1. You need to build your container first!
 
-`docker build -t gcr.io/<project_id>/<image_name>:<version> .` 
+```bash
+docker build -t gcr.io/<project_id>/<image_name>:<version> .
+```
 
 _**Note:**_ Don't leave off the `.` that's what tells docker where to build.
 
@@ -51,6 +53,8 @@ What this command is doing is building the docker image from your dockerfile wit
 
 #### 2. Docker and Google Container Registry
 
-`gcloud auth configure-docker`
+```bash
+gcloud auth configure-docker
+```
 
 This changes the values in the the `config.json` in your `.docker` directory
