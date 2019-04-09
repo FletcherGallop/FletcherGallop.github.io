@@ -36,8 +36,6 @@ Kubernetes is an orchestration tool, what this means is that you can bring thing
 To put your Docker application into Kubernetes it's nice and straight forward. I've been working on a few labs for this now, so I thought I'd boil it down to a few commands for you!
 
 I worked this lab using Google Cloud shell, a nifty tool given to you for free by Google Cloud Platform - of course, anything you make with it may have charges!
-<!-- I've worked this in the gcloud shell - so if you're not using gcloud shell, where I've got `$DEVSHELL_PROJECT_ID`, replace that with your google project ID. 
-_Or, better yet, just do it in Google Cloud Shell_ -->
 
 ### NodeJS Container in Kubernetes with Google Kubernetes Engine
 
@@ -58,3 +56,63 @@ gcloud auth configure-docker
 ```
 
 This changes the values in the the `config.json` in your `.docker` directory
+
+#### 3. Publishing to GCR
+
+```bash
+docker push gcr.io/<project_id>/<image_name>:<version>
+```
+
+#### 4. Creating a Pod using Kubectl
+
+```bash
+kubectl run <deployment-name> \
+--image=gcr.io/<project_id>/<image_name>:<version>
+```
+
+##### Helpful Commands
+
+```bash
+kubectl get deployments
+```
+
+```bash
+kubectl get pod
+```
+
+#### 5. Exposing your pod to External Traffic
+
+```bash
+kubectl expose deployment <deployment-name> \
+--name=<deployment_name> \
+--type=LoadBalancer \
+--port=80 \ 
+--target-port=8080
+```
+
+```bash
+kubectl get svc <deployment-name>
+```
+
+#### 6. And don't forget to _Clean Up_
+
+```bash
+kubectl delete deployment <deployment-name>
+```
+_This deletes the deployment_
+
+```bash
+gcloud container clusters delete <cluster-name>
+```
+
+_**Note: Only run the command below if you want to delete EVERYTHING.**_
+I created a Project just for this lab, and I suggest you do too. If you have other resources in this project or on the machine you are using, I highly recommend **against** running this command. 
+```bash
+kubectl delete services,pods --all
+```
+
+Otherwise use: 
+```bash
+kubectl delete services,pods name=<deployment-name>
+```
+
