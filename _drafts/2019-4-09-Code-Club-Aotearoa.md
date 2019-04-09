@@ -5,6 +5,11 @@ title: "Code Club Aotearoa"
 
 _I went to a code club for kids and I've walked away with a few things on my mind._
 
+## TL;DR
+
+>Join in and help encourage our youth to be excited and passionate about the world of tech. Not every child has immediate access to tech role models, let's do something to change that. 
+**Sign up and Read More at [Code Club Aotearoa](https://codeclub.nz/)**
+
 ## Introduction
 
 I was recently at a conference where I met a friendly local software engineer, he's a parent, and he's running a Code Club at his daughter's school.
@@ -63,5 +68,3 @@ Initiatives need support from volunteers to make things happen. There are many d
 
 Different perspectives are important to the innovation and diversity of thought in technology. We, as an industry, need the kids who have the passion and joy for technology and learning. So, we must put in the time and effort to ensure that they don't have to look far to find encouragement and support. 
 
-## Important Links
-[Code Club Aotearoa](https://codeclub.nz/)
