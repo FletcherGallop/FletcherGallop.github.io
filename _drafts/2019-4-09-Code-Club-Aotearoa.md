@@ -21,7 +21,7 @@ But they're often being run by men like himself. I volunteered to come along and
 
 ## Storytime: My History in STEM
 
-Whilst at school I was academic, I have always enjoyed learning but whilst there I showed an aptitude for Maths, and Science. 
+Whilst at school I was academic, I have always enjoyed learning, and from a young age I showed an aptitude for Maths, and Science. 
 
 I come from a family of Engineers, Programmers and Scientists. My father is a space science programmer who does amazing things like hike up to Svalbard to program a radar. My mother is a science and maths teacher, who has always had a passion for learning and teaching, and all things science. On both sides of my family I have engineers, on my maternal side, an aeronautics engineer, on my paternal, a radio engineer. I have a cousin who works at CERN, another that has created amazing pieces of hardware. 
 Everywhere I look I have smart and technical people that I look up to and who share my interests in all things nerdy. 
