@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    {% seo %}
+    {% if site.google_verify %}
+      <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
     {% include meta.html %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
