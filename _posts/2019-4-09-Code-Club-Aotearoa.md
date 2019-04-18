@@ -3,11 +3,12 @@ layout: post
 title: "Code Club Aotearoa"
 ---
 
-_I went to a code club for kids and I've walked away with a few things on my mind. We need more people in tech to talk to our kids and foster their passion for tech. Doing that is as easy as showing up and listening to them, sharing their passion and validating their interest!_
+_I had a chat with someone at a conference about a cool thing called CodeClubNZ. I just had to go along and see what went on! I had a great afternoon with the kids, aged 9-10, talking to them and helping them with their python projects. It really got me thinking!_
 
 ## TL;DR
 
 >Join in and help encourage our youth to be excited and passionate about the world of tech. Not every child has immediate access to tech role models, let's do something to change that. 
+>We need more people in tech to talk to our kids and foster their passion for tech. Doing that is as easy as showing up and listening to them, sharing their passion and validating their interest!
 **Sign up and Read More at [Code Club Aotearoa](https://codeclub.nz/)**
 
 ## Introduction
