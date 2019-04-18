@@ -3,7 +3,7 @@ layout: post
 title: "Code Club Aotearoa"
 ---
 
-_I went to a code club for kids and I've walked away with a few things on my mind._
+_I went to a code club for kids and I've walked away with a few things on my mind. We need more people in tech to talk to our kids and foster their passion for tech. Doing that is as easy as showing up and listening to them, sharing their passion and validating their interest!_
 
 ## TL;DR
 
