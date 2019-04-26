@@ -107,6 +107,8 @@ Every project you run should be run like a professional project. This was a big 
 
 I'll be writing up the technical aspects of this project next, so if you want to learn about what I did and how to learn Docker from Scratch follow along.
 
+_Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_
+
 ___
 
 #### Sources

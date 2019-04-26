@@ -127,4 +127,4 @@ So, now we're created:
 
 Follow me into the [next blog](https://fletchergallop.github.io/Docker-From-Scratch-Part3/) where I'll talk about docker-ising these apps!
 
-_Feel free to message me at my social media accounts for any questions or comments! - Thanks!_
+_Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_

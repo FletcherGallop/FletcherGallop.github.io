@@ -116,3 +116,4 @@ Otherwise use:
 kubectl delete services,pods name=<deployment-name>
 ```
 
+_Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_

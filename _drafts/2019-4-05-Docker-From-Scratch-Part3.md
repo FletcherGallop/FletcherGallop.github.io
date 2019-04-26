@@ -139,3 +139,12 @@ docker run --name postgresql -itd --restart always \
 ```
 
 This runs the postgresql image from DockerHub with a few different environment variables. Giving it the database configuration variables, name, user and password is important. This now means that the container will make this database with the user credentials and it'll be ready for us to use! The username and password are also given to the api server to use (done in the local  `.env` file). 
+
+
+## DONE!
+
+So, now we're running our apps in Docker! 
+
+Follow me into the [next blog](https://fletchergallop.github.io/Docker-From-Scratch-Part4/) where I'll talk about using Docker-Compose to run our apps together!
+
+_Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_
