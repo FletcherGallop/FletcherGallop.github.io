@@ -3,7 +3,7 @@ layout: post
 title: "Doing the Kubectl"
 ---
 
-_Moving from Docker to Kubernetes_
+_Moving from Docker to Kubernetes. Deploying a Docker Container into Kubernetes on Google Cloud._
 
 ### Introduction: Kubernetes
 

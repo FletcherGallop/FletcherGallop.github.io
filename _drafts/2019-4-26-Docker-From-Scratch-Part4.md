@@ -9,8 +9,8 @@ _Final Step in the Docker From Scratch Project! Time to add in some Docker Compo
 
 So far we have:
 
-- Created an App in [Part 2]()
-- Containerised our App in [Part 3]()
+- Created an App in [Part 2](/Docker-From-Scratch-Part2)
+- Containerised our App in [Part 3](/Docker-From-Scratch-Part3)
 
 Now it's time to put the containerised applications into Docker Compose!
 
