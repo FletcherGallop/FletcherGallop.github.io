@@ -11,13 +11,21 @@ In the [previous post](https://fletchergallop.github.io/Docker-From-Scratch-Part
 
 Now it's time to Docker-ise! 
 
-Docker makes everything so nice and straight forward. 
-
 Putting the application into Docker was so straight-forward, and in no more than maybe 30 lines of code and a image from DockerHub I was up and running in Docker.
 
 Docker have good documentation and getting started guides. There are also a lot of people in this space who publish blogs and guides!
 
+### What is Docker?
 
+Briefly, Docker is a containerisation technology that uses yaml files to build _images_. These _images_ are then run in the Docker Engine as _containers_.
+
+For Developers its great because it means you no longer have to deal with the problem of _**"but it worked on my machine"**_.
+
+Whoever uses your image will have all the correct dependencies and as a bonus, containers are isolated from your local machine. The image has on it everything you need to run the application and nothing else. 
+
+### Let's get started!
+
+If you just want files here they are, but if you want to follow along as I explain what's going on keep reading!
 
 These are the full Dockerfiles:
 
@@ -140,11 +148,59 @@ docker run --name postgresql -itd --restart always \
 
 This runs the postgresql image from DockerHub with a few different environment variables. Giving it the database configuration variables, name, user and password is important. This now means that the container will make this database with the user credentials and it'll be ready for us to use! The username and password are also given to the api server to use (done in the local  `.env` file). 
 
+## Cleaning Up
+
+```bash
+ docker system prune
+WARNING! This will remove:
+        - all stopped containers
+        - all networks not used by at least one container
+        - all dangling images
+        - all dangling build cache
+Are you sure you want to continue? [y/N]
+```
+
+Or even more aggressively:
+
+```bash
+docker system prune --volumes --all
+WARNING! This will remove:
+        - all stopped containers
+        - all networks not used by at least one container
+        - all volumes not used by at least one container
+        - all images without at least one container associated to them
+        - all build cache
+Are you sure you want to continue? [y/N]
+```
+
+I like to use prune as it gets rid of a lot in one sweep. But to remove things individually:
+
+```bash
+#Container Commands
+docker container ls #lists containers
+docker container rm <container_id> #use id to remove specific containers
+
+#Image Commands
+docker image ls     #lists images
+docker rmi <image_id> #use the ID or tag to remove specific images
+docker image rm <image> 
+
+#Volume Commands
+docker volume ls    #lists volumes
+docker volume rm <volume_name> #use name to remove specific volumes
+
+#Network Commands
+docker network ls   #lists networks
+docker network rm <network_name> #use the name or ID to remove specific network
+
+#Extra
+docker info         #lists number of containers and images and other system info.
+```
 
 ## DONE!
 
 So, now we're running our apps in Docker! 
 
-Follow me into the [next blog](https://fletchergallop.github.io/Docker-From-Scratch-Part4/) where I'll talk about using Docker-Compose to run our apps together!
+Follow me into the [next blog](/Docker-From-Scratch-Part4/) where I'll talk about using Docker-Compose to run our apps together!
 
 _Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_
