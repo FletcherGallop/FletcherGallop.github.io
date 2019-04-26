@@ -203,4 +203,4 @@ So, now we're running our apps in Docker!
 
 Follow me into the [next blog](/Docker-From-Scratch-Part4/) where I'll talk about using Docker-Compose to run our apps together!
 
-_Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_
+_Feel free to message me at @fletchergallop on Twitter for any questions, suggestions or comments! - Thanks!_
