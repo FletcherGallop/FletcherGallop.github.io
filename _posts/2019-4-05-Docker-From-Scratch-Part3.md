@@ -3,7 +3,7 @@ layout: post
 title: "Docker From Scratch Part 3: Doing the Docker"
 ---
 
-_Time to do the Docker!_
+_Time to do the Docker! Adding Docker to our Sample App. Walking through the process and the files. And some helpful cleaning up commands._
 
 ## Introduction 
 
