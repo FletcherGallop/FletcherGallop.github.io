@@ -36,18 +36,17 @@ It is essentialy flat file, or object based storage in the cloud. Typically used
 
 There are three or so criteria to look for when deciding which Cloud Storage option to use:
 
-- Access Volume
-- Cost Effectiveness
-- Lifecycling
+<ul>
+<li><span style="background-color: #FFFF00">Access Volume</span></li>
+<li><span style="background-color: #FFFF00">Cost Effectiveness</span></li>
+<li><span style="background-color: #FFFF00">Lifecycling</span></li>
+</ul>
 
-### Example Use Case Scenario 
+If in your scenario you need to regularly access your data, this should be regional or multi-regional.
 
-`
-You currently have 850TB of Closed-Circuit Television (CCTV) capture data and are adding new data at a rate of 80TB/month. The rate of data captured and needing to be stored is expected to grow to 200TB/month within one year because new locations are being added, each with 4-10 cameras. Archival data must be stored indefinitely, and as inexpensively as possible. The users of your system currently need to access 250TB of current-month footage and 100GB of archival footage, and access rates are expected to grow linearly with data volume.
-`
+If your scenario requires lifecycling, that's possible too, but you never lifecycle from multi- to single regional.
 
-<span style="background-color: #FFFF00">Marked text</span>
-
+When it comes to a scenario with infrequent access, if it's more than once yearly then it's Nearline. But if access is less and the cost is the biggest factor then it's going to be Coldline.
 
 _Feel free to message me at @fletchergallop on Twitter for any questions or comments! - Thanks!_
 
