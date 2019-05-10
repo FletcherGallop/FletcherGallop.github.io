@@ -52,7 +52,7 @@ This one requires a little patience, indexing of your website can take days and 
 
 This is also straightforward. First, go to [Google Analytics](https://analytics.google.com/analytics/web/). Then, sign up. Create an account name and add in all your details. 
 
-Once you've done this, click <img src='../images/google-tracking-id.png' height=40 alt="Get Tracking ID"></img> and copy your tracking ID. 
+Once you've done this, click ![Get Tracking ID](../images/google-tracking-id.png) and copy your tracking ID. 
 
 This will then go into your `_config.yml` file. 
 
