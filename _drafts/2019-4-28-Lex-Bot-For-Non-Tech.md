@@ -38,7 +38,11 @@ Once you're in with Lex, you'll see a splash screen, or, if you've done this bef
 ![Lex in Console](../images/aws-create-bot.png)
 
 ### Lex Console
+The Lex console is nice and straightforward. 
+
 ![Lex in Console](../images/aws-create-bot-blank.png)
+
+We have, 
 
 ### Add in the Basics
 
@@ -51,3 +55,5 @@ Once you're in with Lex, you'll see a splash screen, or, if you've done this bef
 ### Hello \{Name}, nice to meet you!
 
 ![Lex in Console](../images/aws-create-bot-greeting-chat.png)
+
+### Connect to Facebook!
