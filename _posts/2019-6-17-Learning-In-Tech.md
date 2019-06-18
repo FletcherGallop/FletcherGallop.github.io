@@ -3,7 +3,7 @@ layout: post
 title: "How I Approach Learning in Tech"
 ---
 
-There's a lot to learn in Tech, so take your time, be smart about how you tackle new things. Iterate on your learning, and more importantly, prototyping is your best friend. 
+*There's a lot to learn in Tech, so take your time, be smart about how you tackle new things. Iterate on your learning, and more importantly, prototyping is your best friend.*
 
 ## Why listen to me?
 I'm relatively new to the industry, but more than that, I'm new to most of the things I work with at one point. I spent the best part of last year working on Proof Of Concepts (PoCs), greenfield projects and technologies I'd only heard the name of before being thrown in to use them. 
